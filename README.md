@@ -23,6 +23,7 @@ pip install -r requirements.txt
 
 
 ```text
+Desktop
 ├── BgCombine/
 │   └── synthetic_gen_gui.py   <-- Combine Main GUI
 ├── BgEraser/
