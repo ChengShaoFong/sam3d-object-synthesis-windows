@@ -24,13 +24,15 @@ pip install -r requirements.txt
 
 ```text
 ├── BgCombine/
+│   └── synthetic_gen_gui.py   <-- Combine Main GUI
 ├── BgEraser/
-│   └── sam2.pt              <-- SAM2 Model (Place SAM2 weights here)
-│   └── segmentAnything2/    <-- SAM2 (Place Project here)
+│   └── del_background_gui.py  <-- Eraser Main GUI
+│   └── sam2.pt                <-- SAM2 Model (Place SAM2 weights here)
+│   └── segmentAnything2/      <-- SAM2 (Place Project here)
 │       └── setup.py
 │   └── segmentAnything3D/
 │       └── checkpoints/
-│           └── hf/          <-- SAM3D 權重檔 (Place SAM3D weights here)
+│           └── hf/           <-- SAM3D Model (Place SAM3D weights here)
 │   
 ├── del_backgrround.bat
 └── synthesis_generator.bat
