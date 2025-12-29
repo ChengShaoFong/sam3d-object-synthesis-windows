@@ -1,0 +1,7 @@
+{
+    "python.analysis.extraPaths": [
+        "./sam-3d-objects-windows/notebook",
+        "./segmentAnything2",
+        "./segmentAnything3D"
+    ]
+}
