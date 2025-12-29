@@ -24,19 +24,19 @@ pip install -r requirements.txt
 
 ```text
 Desktop
-├── BgCombine/
-│   └── synthetic_gen_gui.py   <-- Combine Main GUI
-├── BgEraser/
-│   └── del_background_gui.py  <-- Eraser Main GUI
-│   └── sam2.pt                <-- SAM2 Model (Place SAM2 weights here)
-│   └── segmentAnything2/      <-- SAM2 (Place Project here)
-│       └── setup.py
-│   └── segmentAnything3D/
-│       └── checkpoints/
-│           └── hf/           <-- SAM3D Model (Place SAM3D weights here)
-│   
-├── del_backgrround.bat
-└── synthesis_generator.bat
+  ├── BgCombine/
+  │   └── synthetic_gen_gui.py   <-- Combine Main GUI
+  ├── BgEraser/
+  │   └── del_background_gui.py  <-- Eraser Main GUI
+  │   └── sam2.pt                <-- SAM2 Model (Place SAM2 weights here)
+  │   └── segmentAnything2/      <-- SAM2 (Place Project here)
+  │       └── setup.py
+  │   └── segmentAnything3D/
+  │       └── checkpoints/
+  │           └── hf/           <-- SAM3D Model (Place SAM3D weights here)
+  │   
+  ├── del_backgrround.bat
+  └── synthesis_generator.bat
 ```
 
 #### *root/BgEraser/segmentAnything3D/checkpoints/hf/*
